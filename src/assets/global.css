@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Hellix';
+}
+.bold {
+    font-family: 'Normal';
+    font-weight: 900;
+}
