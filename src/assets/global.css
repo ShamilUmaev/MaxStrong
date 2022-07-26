@@ -4,8 +4,14 @@
 body {
     margin: 0;
     font-family: 'Hellix';
+    font-weight: 400;
+    color: #111235;
+    max-width: 1600px;
 }
 .bold {
     font-family: 'Normal';
     font-weight: 900;
+}
+p {
+    line-height: 24px;
 }
