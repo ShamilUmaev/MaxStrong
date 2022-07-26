@@ -8,7 +8,14 @@
     </div>
     <img src="../assets/workout-vector-1.png" alt="">
   </div>
-  
+  <div class="choose-loads">
+    <div class="text-content-choose-loads">
+      <h2>Choose loads <span class="bold">for yourself</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+    </div>
+    <img src="../assets/workout-vector-2.png">
+  </div>
 </div>
 </template>
 
@@ -21,7 +28,7 @@ export default {
 <style scoped>
 .outer-container {
   width: 80%;
-  margin: 0 auto;
+  margin: 100px auto 0;
 }
 .time-to-get-strong {
   width: 100%;
@@ -46,5 +53,32 @@ export default {
   height: 45px;
   border-radius: 35px;
   border: none;
+}
+.text-content-time-to-get-strong button {
+  margin-top: 30px;
+}
+.choose-loads {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.choose-loads img {
+  width: 50%;
+}
+.text-content-choose-loads {
+  width: 45%;
+  background: #F2F8FF;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding: 0 80px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-content-choose-loads h2 {
+  font-size: 2.5rem;
+  width: 70%;
+  margin-bottom: 20px;
 }
 </style>
