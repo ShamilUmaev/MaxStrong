@@ -4,7 +4,7 @@
     <div class="text-content-time-to-get-strong">
       <h2>The time to get <span class="bold">strong</span> has come</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
-      <button class="all-btn">Contact Us</button>
+      <BaseButton @click="contactUs">Contact Us</BaseButton>
     </div>
     <img src="../assets/workout-vector-1.png" alt="">
   </div>
@@ -20,8 +20,15 @@
 </template>
 
 <script>
+import router from '../router'
+import BaseButton from './BaseButton.vue'
 export default {
-
+  components: { BaseButton },
+  methods: {
+    contactUs() {
+      router.push('/contact')
+    }
+  }
 }
 </script>
 
@@ -44,15 +51,6 @@ export default {
 .text-content-time-to-get-strong p {
   width: 80%;
   margin-top: 30px;
-}
-.all-btn {
-  background: #4B5092;
-  color: #fff;
-  font-size: .9rem;
-  width: 30%;
-  height: 45px;
-  border-radius: 35px;
-  border: none;
 }
 .text-content-time-to-get-strong button {
   margin-top: 30px;
