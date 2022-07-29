@@ -9,11 +9,11 @@
     <img src="../assets/workout-vector-1.png" alt="">
   </div>
   <div class="choose-loads">
-    <div class="text-content-choose-loads">
+    <BaseContainer class="text-choose-loads">
       <h2>Choose loads <span class="bold">for yourself</span></h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
-    </div>
+    </BaseContainer>
     <img src="../assets/workout-vector-2.png">
   </div>
 </div>
@@ -22,8 +22,9 @@
 <script>
 import router from '../router'
 import BaseButton from './BaseButton.vue'
+import BaseContainer from './BaseContainer.vue'
 export default {
-  components: { BaseButton },
+  components: { BaseButton, BaseContainer },
   methods: {
     contactUs() {
       router.push('/contact')
@@ -35,7 +36,7 @@ export default {
 <style scoped>
 .outer-container {
   width: 80%;
-  margin: 100px auto 0;
+  margin: 50px auto;
 }
 .time-to-get-strong {
   width: 100%;
@@ -74,7 +75,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.text-content-choose-loads h2 {
+.text-choose-loads h2 {
   font-size: 2.5rem;
   width: 70%;
   margin-bottom: 20px;

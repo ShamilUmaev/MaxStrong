@@ -38,11 +38,11 @@ export default {
   margin-bottom: 20px;
 }
 .text-content h5 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .text-content button {
   background-color: #fff;
   color: #4B5092;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 </style>
