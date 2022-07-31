@@ -10,9 +10,11 @@
   </div>
   <div class="choose-loads">
     <BaseContainer class="text-choose-loads">
-      <h2>Choose loads <span class="bold">for yourself</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+      <template v-slot:choose-loads>
+        <h2>Choose loads <span class="bold">for yourself</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+      </template>
     </BaseContainer>
     <img src="../assets/workout-vector-2.png">
   </div>

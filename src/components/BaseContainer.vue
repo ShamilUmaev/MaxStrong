@@ -1,6 +1,10 @@
 <template>
     <div class="base-container">
-        <slot></slot>
+        <slot name="business-flexibility"></slot>
+        <slot name="mental-health"></slot>
+        <slot name="energy-throughout-day"></slot>
+        <slot name="helps-finding-friends"></slot>
+        <slot name="choose-loads"></slot>
     </div>
 </template>
 

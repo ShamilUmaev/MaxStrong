@@ -21,8 +21,11 @@ export default {
 nav {
     width: 100%;
     height: 70px;
+    background-color: #fff;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
 }
 h2 {
     font-size: 2rem;
@@ -47,7 +50,6 @@ a {
     justify-content: space-between;
     margin: 0 auto;
     padding: 15px 0;
-    background-color: #fff ;
-    position: fixed;
+    box-sizing: border-box;
 }
 </style>
