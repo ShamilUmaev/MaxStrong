@@ -32,7 +32,6 @@ h2 {
 }
 ul {
     width: 25%;
-    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;

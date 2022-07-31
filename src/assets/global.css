@@ -1,12 +1,14 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     margin: 0;
     font-family: 'Hellix';
     font-weight: 400;
-    color: #111235;
     max-width: 1600px;
+    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+    color: #111235;
 }
 .bold {
     font-family: 'Normal';
@@ -14,4 +16,11 @@ body {
 }
 p {
     line-height: 24px;
+}
+a {
+    text-decoration: none;
+    color: #111235;
+}
+ul {
+    list-style: none;
 }
