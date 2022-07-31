@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
-import BaseContainer from './BaseContainer.vue'
+import BaseButton from './UI/BaseButton.vue'
+import BaseContainer from './UI/BaseContainer.vue'
 export default {
   components: { BaseButton, BaseContainer }
 }
