@@ -11,7 +11,7 @@
 <style scoped>
 .base-container {
   width: 45%;
-  background: #e2effd;
+  background: #dbe9f8;
   border-radius: 50px;
   box-sizing: border-box;
   padding: 0 80px 0 40px;

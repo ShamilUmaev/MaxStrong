@@ -49,7 +49,7 @@ export default {
   width: 50%;
 }
 .text-content-time-to-get-strong h2 {
-  font-size: 4rem;
+  font-size: 4.2rem;
 }
 .text-content-time-to-get-strong p {
   width: 80%;
@@ -78,7 +78,7 @@ export default {
   justify-content: center;
 }
 .text-choose-loads h2 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   width: 70%;
   margin-bottom: 20px;
 }

@@ -1,6 +1,8 @@
 <template>
   <NavBar/>
-  <router-view></router-view>
+  <Transition name="fade">
+    <router-view></router-view>
+  </Transition>
   <TheFooter></TheFooter>
 </template>
 
@@ -13,4 +15,13 @@ export default {
 </script>
 
 <style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>
