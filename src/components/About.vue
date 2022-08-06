@@ -64,7 +64,8 @@ p {
   line-height: 24px;
 }
 .coach-section {
-  margin-top: 70px;
+  margin: 80px auto 50px;
+  width: 80%;
   background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
   display: flex;
   justify-content: center;

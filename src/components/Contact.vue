@@ -62,7 +62,7 @@ form div {
 }
 .contact-outer-container {
     height: 80vh;
-    margin-top: 70px;
+    margin: 80px auto 50px;
     width: 100%;
     display: flex;
     align-items: center;
