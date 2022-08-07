@@ -20,10 +20,11 @@ export default {
 <style scoped>
 nav {
     width: 100%;
-    height: 70px;
+    height: 50px;
     background-color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
 }
