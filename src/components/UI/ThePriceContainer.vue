@@ -1,38 +1,34 @@
 <template>
-  <div class="outer-container">
-    <div class="quadrat" :class="setColor">
-    </div>
+    <div class="outer-container">
+        <div class="triangle" :class="setColor"></div>
         <slot name="basic"></slot>
         <slot name="standard"></slot>
         <slot name="premium"></slot>
-  </div>
+    </div>
 </template>
 
 <script>
 export default {
     props: {
-        bg: String
+        background: String
     },
     computed: {
         setColor() {
-           if(this.bg === 'red') {
+           if(this.background === 'red') {
             return 'red-color'
-           } else if (this.bg === 'blue') {
+           } else if (this.background === 'blue') {
             return 'blue-color'
            } else {
             return 'green-color'
            }
         }
-    },
-    mounted() {
-        
     }
 }
 </script>
 
 <style scoped>
 .outer-container {
-    height: 500px;
+    /* height: 550px; */
     width: 30%;
     border-radius: 15px;
     border: none;
@@ -42,9 +38,9 @@ export default {
 }
 h2 {
     position: absolute;
-    top: 20px;
+    top: 200px;
 }
-.quadrat {
+.triangle {
     width: 0; 
     height: 0; 
     border-right: 100px solid transparent;

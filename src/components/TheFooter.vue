@@ -26,7 +26,7 @@
 <style scoped>
 .footer-outer-container {
     width: 80%;
-    margin: 100px auto 50px;
+    margin: 70px auto 50px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 .footer {
