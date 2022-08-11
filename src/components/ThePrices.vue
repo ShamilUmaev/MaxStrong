@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <the-price-container :background="'red'">
+    <the-price-container :background="'red'" @click="redirectToPayment">
         <template v-slot:basic>
             <div class="benefits">
                 <h2>Basic</h2>
@@ -11,7 +11,7 @@
             </div>
         </template>
     </the-price-container>
-    <the-price-container :background="'blue'">
+    <the-price-container :background="'blue'" @click="redirectToPayment">
         <template v-slot:standard>
             <div class="benefits">  
                 <h2>Standard</h2>
@@ -24,7 +24,7 @@
             </div>
         </template>
     </the-price-container>
-    <the-price-container :background="'green'">
+    <the-price-container :background="'green'" @click="redirectToPayment">
         <template v-slot:premium>
             <div class="benefits">
                 <h4>69.99€</h4>
@@ -44,8 +44,14 @@
 
 <script>
 import ThePriceContainer from './UI/ThePriceContainer.vue'
+import router from '../router'
 export default {
-    components: { ThePriceContainer }
+    components: { ThePriceContainer },
+    methods: {
+        redirectToPayment() {
+            router.push('/payment')
+        }
+    }
 }
 </script>
 
@@ -63,7 +69,7 @@ div.outer-container {
     padding-bottom: 20px ;
     position: relative;
     text-align: center;
-    animation: reverse 0.4s forwards;
+    animation: reverse 0.4s;
 }
 div.outer-container:hover {
     animation: smooth 0.4s forwards;

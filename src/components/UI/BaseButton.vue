@@ -9,7 +9,7 @@
   background: #4B5092;
   color: #fff;
   font-size: .9rem;
-  width: 200px;
+  width: 180px;
   height: 45px;
   border-radius: 35px;
   border: none;

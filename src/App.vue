@@ -19,8 +19,11 @@ export default {
 </script>
 
 <style scoped>
+nav {
+  z-index: 1;
+}
 .nav-enter-from {
-  transform: translateX(-50px);
+  transform: translateX(-100px);
   opacity: 0;
 }
 .nav-enter-to {
@@ -35,7 +38,7 @@ export default {
   opacity: 1;
 }
 .nav-leave-to {
-  transform: translateX(+50px);
+  transform: translateX(+100px);
   opacity: 0;
 }
 .nav-leave-active {
